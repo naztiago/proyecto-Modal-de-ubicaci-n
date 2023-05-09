@@ -1,0 +1,82 @@
+@font-face {
+    font-family: 'MiFuentePersonalizada';
+    src: url(/fuentes/Montserrat/Montserrat-VariableFont_wght.ttf) format('truetype');
+  }
+
+
+body{
+    background-color: gray;
+    font-family: 'MiFuentePersonalizada';
+    background-color: rgba(0, 0, 0, 0.5);
+}
+
+.pagina{
+    display: flex;
+    justify-content: center;
+}
+
+.caja{
+    background-color: rgb(255, 255, 255);
+    width: 60%;
+    margin-top: 10%;
+    border-radius: 25px;
+}
+
+
+.titulo{
+    margin: 20px;
+    font-size: 25px;
+    margin-left: 40px;
+    margin-top: -5px;
+}
+
+.parrafo{
+    margin: 20px;
+    margin-top: 30px;
+    margin-left: 40px;
+    text-align: left;
+    font-size: medium;
+}
+
+.listas{
+    display: flex;
+    justify-content: center;
+    
+}
+.listas2{
+    display: flex;
+    justify-content: center;
+    border-bottom: 0.5px solid rgb(96, 96, 96);
+    height: 80px;
+}
+
+.seleccion{
+    border-radius: 25px;
+    width: 550px;
+    height: 30px;
+    margin: 10px;
+    border: 2px solid rgb(201, 201, 201);
+    padding: 15px;
+}
+
+.boton_box{
+    display: flex;
+    justify-content: right;
+    height: 70px;
+}
+.boton_elegir{
+    margin: 20px;
+
+}
+
+.boton{
+    border-radius: 20px;
+    background-color: rgb(196, 31, 31);
+    color: white;
+    border: none;
+    padding-left: 30px;
+    padding-right: 30px;
+    padding-top: 10px;
+    padding-bottom: 10px;
+    margin-right: 0px;
+}
